@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Redressed&display=swap');
-* {
+@import url("https://fonts.googleapis.com/css?family=Wallpoet&display=swap");
+
+*{
   padding: 0;
   margin: 0.5rem auto;
   box-sizing: border-box;
@@ -8,5 +9,5 @@
 body,
 input,
 select {
-  font-family: 'Redressed', cursive;
+  font-family: "Wallpoet", cursive;
 }
