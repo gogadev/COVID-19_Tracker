@@ -1,0 +1,11 @@
+.spinner {
+    width: 90vw;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    margin: 0.3rem auto;
+}
+
+.gif {
+    width: 40%;
+}

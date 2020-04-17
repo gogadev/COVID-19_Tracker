@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
+
+.cards-container {
+  width: 95vw;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0.2rem auto;
+}
+
+.card {
+  width: 100%;
+  background: #ededed;
+  border-bottom: 4px solid grey;
+  outline: 1px solid lightgrey;
+  outline-offset: -5px;
+  padding: 1rem 1rem;
+}
+
+.card-title {
+  margin: 0.4rem auto;
+  letter-spacing: 2px;
+}
+
+.count-up {
+  font-size: 1.5rem;
+  font-family: "Fascinate Inline", cursive;
+  margin: 0.5rem auto;
+  background: lightgrey;
+  padding: 0.1rem 11.5rem;
+  outline: 1px solid lightgrey;
+}
+
+.date {
+  letter-spacing: 1px;
+  margin: 0.5rem auto;
+}
+
+.text {
+  width: 100%;
+  margin-top: 0.3rem;
+  text-transform: capitalize;
+}
+
+.text span {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.blue {
+  color: lightskyblue;
+  text-shadow: 1px 1px black;
+}
+
+.green {
+  color: lightgreen;
+  text-shadow: 1px 1px black;
+}
+
+.red {
+  color: red;
+}
+
+.icon {
+  width: 10%;
+  opacity: 0.4;
+}
+
+@media only screen and (max-width: 768px) {
+  .info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .count-up {
+    padding: 0.1rem 2rem;
+  }
+  .card {
+    width: 80%;
+    height: 230px;
+  }
+}

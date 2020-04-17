@@ -1,0 +1,21 @@
+.country-picker {
+  width: 90vw;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+}
+
+.select {
+  width: 100%;
+  padding: 0.2rem;
+  font-size: 1.3rem;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px dotted grey;
+  margin: 1rem auto;
+}
+
+option {
+  text-align: center;
+}
