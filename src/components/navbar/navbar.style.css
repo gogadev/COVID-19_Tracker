@@ -8,11 +8,13 @@ nav {
 
 .title {
   font-size: 2.2rem;
-  letter-spacing: 2px;
+  letter-spacing: 7px;
+  color: grey;
+  text-shadow: 1px 1px black;
 }
 
 .subtitle {
-  width: 82%;
+  width: 80%;
   border: 4px solid lightgrey;
   padding: 0.2rem;
   letter-spacing: 2px;
@@ -21,4 +23,11 @@ nav {
 
 .home-img {
   width: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+  .subtitle {
+    width: 60%;
+  }
+
 }
