@@ -2,7 +2,7 @@ footer {
   display: grid;
   justify-content: center;
   justify-items: center;
-  margin: 0.5rem auto;
+  margin: 0.8rem auto;
   background: #d5d5d5;
   text-align: center;
   outline: 1px solid rgba(0, 0, 0, 0.2);
