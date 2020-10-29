@@ -16,7 +16,7 @@
 }
 
 .card {
-  width: 100%;
+  width: 93%;
   background: #ededed;
   border-bottom: 4px solid grey;
   outline: 1px solid lightgrey;
@@ -34,7 +34,7 @@
   font-family: "Fascinate Inline", cursive;
   margin: 0.5rem auto;
   background: lightgrey;
-  padding: 0.1rem 11.5rem;
+  padding: 0.1rem 8.5rem;
   outline: 1px solid lightgrey;
 }
 
