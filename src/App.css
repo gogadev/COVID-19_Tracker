@@ -11,3 +11,7 @@ input,
 select {
   font-family: "Wallpoet", cursive;
 }
+
+body {
+  overflow-x: hidden;
+}
